@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sidhesh.mr.sqlitedatabase.RegisterActivity">
+
+    <TextView
+        android:text = "Register"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/tvreg"
+        android:textSize = "35dp"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true" />
+
+    <EditText
+        android:id="@+id/etrname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"/>
+    <EditText
+        android:id="@+id/etremail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email" />
+    <EditText
+        android:id="@+id/etrpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:ems="10"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
